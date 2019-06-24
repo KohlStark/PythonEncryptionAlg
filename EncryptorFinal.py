@@ -1,3 +1,11 @@
+''' 
+Kohl Stark
+PythonEncryptionAlg
+01/2019
+EncryptorFinal.py
+This python script reads passwords from a textfile named passwords.txt, encrypts them and writes the encrypted
+passwords to a file named Encrypted_Passwords.txt'''
+
 import math
 file_contents = []
 f = open('passwords.txt','r')
