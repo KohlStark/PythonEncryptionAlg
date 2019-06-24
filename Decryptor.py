@@ -1,3 +1,10 @@
+''' 
+Kohl Stark
+PythonEncryptionAlg
+01/2019
+Decryptor.py
+This python script reads encrypted passwords from a textfile named Encrypted_Passwords.txt, decrypts 
+them and writes the original passwords to a file named Decrypted_Passwords.txt'''
 import math
 file_contents = []
 f = open('Encrypted_Passwords.txt','r')
